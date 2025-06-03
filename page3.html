@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page3</title>
+    <style>
+        div{
+            border: 1px solid red;
+        }
+        span{
+            border: 1px solid green;
+        }
+    </style>
+    
 </head>
 <body>
     <h1>รายการสินค้า</h1>
-    <table border="1">
+    <table border="1" cellpadding="10" cellspacing="5">
         <thead>
             <th>รหัสสินค้า</th>
             <th>ภาพสินค้า</th>
@@ -16,18 +25,14 @@
             <th>ดำเนินการ</th>
         </thead>
         <tbody>
-            <tr>
+            <tr bgcolor="white" align="center">
                 <td>P001</td>
-                <td>
-                    <img src="https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg" alt="" height="100">
-                </td>
+                <td><img src="https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg" alt="" height="100"></td>
                 <td>ส้มตำ</td>
                 <td>150.00</td>
-                <td>
-                    <a href="#">สั่งซื้อ</a>
-                </td>
+                <td><a href="#">สั่งซื้อ</a></td>
             </tr>
-            <tr>
+            <tr bgcolor="white" align="center">
                 <td>P002</td>
                 <td>
                     <img src="https://cdn.pixabay.com/photo/2018/08/29/19/03/steak-3640560_1280.jpg" alt=""height="100">
@@ -42,9 +47,23 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>ราคารวม : 350 บาท</td>
+                <td colspan="5" bgcolor="white" align="right"><strong>ราคารวม : 350 บาท</strong></td>
             </tr>
         </tfoot>
     </table>
+    <!-- <span style="color:red">
+        <h1>HTML 5</h1>
+        <p>Kevalee</p>
+    </span>
+    <div style="color: green;">
+        <h1>CSS</h1>
+        <p>Kevalee</p>
+    </div> -->
+    <span>Kevalee</span>
+    <span>Kevalee</span>
+    <span>Kevalee</span>
+    <div>Kevalee</div>
+    <div>Kevalee</div>
+    <div>Kevalee</div>
 </body>
 </html>
